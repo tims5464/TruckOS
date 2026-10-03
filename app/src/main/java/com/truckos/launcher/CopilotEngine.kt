@@ -26,7 +26,7 @@ class CopilotEngine(
     private val prefs: SharedPreferences = context.getSharedPreferences("truckos_brain", Context.MODE_PRIVATE)
 
     // Put your free Google AI Studio API key here:
-    private val apiKey = "YOUR_GEMINI_API_KEY_HERE"
+    private val apiKey = "AQ.Ab8RN6IyQ7b2xqkieNUwRniIf-tkHcrMSClZrekYYbTPvzW-iQ"
 
     override fun onInit(status: Int) {
         if (status == TextToSpeech.SUCCESS) {
