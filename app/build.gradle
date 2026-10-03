@@ -59,6 +59,10 @@ dependencies {
     implementation 'androidx.compose.material3:material3:1.2.1'
     implementation 'androidx.compose.material:material-icons-extended:1.6.8'
 
+    // Gemini API & Network
+    implementation 'com.google.ai.client.generativeai:generativeai:0.9.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1'
+
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
 }
